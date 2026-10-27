@@ -1,95 +1,29 @@
 # Oles Chernyy
 
-**Frontend Engineer | Vue · Nuxt · React · Next.js · TypeScript**
+**Frontend Engineer · Vue / Nuxt · React / Next.js · TypeScript**<br>5+ years building web applications, dashboards, and maintainable frontend systems.<br>[Telegram](https://t.me/AlexCh90) · [Featured projects ↓](#featured-projects) · [GitHub](https://github.com/olestch) · Saint Petersburg, Russia
 
-5+ years in frontend development · Saint Petersburg, Russia
-
-I build complex web applications, data-heavy interfaces, and maintainable frontend architectures. My main commercial background is in Vue and Nuxt, with additional experience building applications with React and Next.js. I have worked in distributed international teams.
-
-[Telegram](https://t.me/AlexCh90) · [GitHub](https://github.com/olestch)
+| Vue / Nuxt · primary commercial stack | React / Next.js · additional experience |
+| --- | --- |
+| Vue 2 / 3 · Nuxt 2 / 3 · TypeScript<br>Pinia / Vuex · Vue Router · Vuetify | React 19 · Next.js 16 · TypeScript<br>Redux Toolkit · TanStack Query · Zod |
 
 ## Featured projects
 
-### 01 · EventScope
+### EventScope · [Live Demo](https://eventscopevue.netlify.app/explore) · [Source Code](https://github.com/olestch/eventscope)
 
-Interactive event analytics with a focus on large datasets, performance, and a separate analytics core.
+<a href="assets/eventscope.webp"><img src="assets/eventscope.webp" width="350" alt="EventScope exploring a populated 1M-event dataset with interactive charts and analytics"></a>
 
-**[Live Demo](https://eventscopevue.netlify.app/explore)** · [Source Code](https://github.com/olestch/eventscope)
+Explore up to **1M events** with charts, filters, and heatmaps. **Web Worker processing · 261 tests.**<br><sub>Vue 3 · Nuxt 3 · TypeScript · ECharts · Web Workers · Vitest</sub>
 
-- Web Worker analytics over deterministic datasets of up to **1 million events**.
-- URL-backed filters, interactive charts, session funnels, and temporal heatmaps.
-- **261 automated tests**, including parity checks between reference and optimized analytics engines.
+### Incident Room · [Live Demo](https://incident-room.netlify.app/) · [Source Code](https://github.com/olestch/incident-room)
 
-**Stack:** Vue 3 · Nuxt 3 · TypeScript · SCSS · Apache ECharts · Web Workers · Vitest
+<a href="assets/incident-room.webp"><img src="assets/incident-room.webp" width="350" alt="Incident Room workspace with incident context, a connected timeline, and a team discussion"></a>
 
-<sub>Self-contained portfolio demo with fictional event data.</sub>
+Investigate incidents with team discussions and simulated real-time updates. **Virtualized timelines · Delivery recovery.**<br><sub>React 19 · Next.js 16 · TypeScript · Redux Toolkit · TanStack Query · Vitest · Playwright</sub>
 
-### 02 · Incident Room
+### Hospitality Operations Dashboard · [Live Demo](https://hospitality-operations-dashboard.netlify.app/) · [Source Code](https://github.com/olestch/hospitality-operations-dashboard)
 
-Incident management interface demonstrating frontend architecture, explicit state ownership, and resilient messaging.
+<a href="assets/hospitality.webp"><img src="assets/hospitality.webp" width="350" alt="Hospitality dashboard showing populated revenue, occupancy, ADR, RevPAR, and performance charts"></a>
 
-**[Live Demo](https://incident-room.netlify.app/)** · [Source Code](https://github.com/olestch/incident-room)
+Explore hotel bookings, performance, and daily operations. **Read-only workflows · Responsive, modular UI.**<br><sub>Vue 3 · TypeScript · Pinia · Vite · ApexCharts · Vitest</sub>
 
-- Virtualized timeline and threaded discussions with paginated history.
-- Redux Toolkit for client coordination; TanStack Query for confirmed resources and cache management.
-- Durable optimistic messaging, simulated real-time updates and notifications, and interrupted-delivery recovery; Vitest and Playwright coverage.
-
-**Stack:** React 19 · Next.js 16 · TypeScript · Redux Toolkit · TanStack Query · Zod · Vitest · Playwright
-
-<sub>Portfolio demo with fictional data and browser-backed API, authentication, and real-time simulations.</sub>
-
-<details>
-<summary>Preview · Timeline and discussion</summary>
-
-<a href="https://incident-room.netlify.app/">
-  <img src="https://raw.githubusercontent.com/olestch/incident-room/66b29fb1eb8640572c3350471f8eb495cce16075/docs/screenshots/incident-room-thread.png" alt="Incident Room demo showing incident context, a virtualized timeline, and a threaded discussion" width="720">
-</a>
-
-</details>
-
-### 03 · Hospitality Operations Dashboard
-
-B2B-style hospitality dashboard for reservation planning and operational analysis.
-
-**[Live Demo](https://hospitality-operations-dashboard.netlify.app/)** · [Source Code](https://github.com/olestch/hospitality-operations-dashboard)
-
-- Property-scoped booking timelines, analytics, quality inspections, and inventory monitoring.
-- Responsive layouts, including a dedicated mobile reservation list.
-- Feature-based modules, Pinia stores, and tested domain calculations over a deterministic local data provider.
-
-**Stack:** Vue 3 · TypeScript · Pinia · Vite · SCSS · ApexCharts · Vitest
-
-<sub>Portfolio demo with fictional data; operational workflows are read-only, with no backend or authentication.</sub>
-
-<details>
-<summary>Preview · Reservation planning</summary>
-
-<a href="https://hospitality-operations-dashboard.netlify.app/">
-  <img src="https://raw.githubusercontent.com/olestch/hospitality-operations-dashboard/23d404a43664d80fd8254eb9ef1382297a15bb3b/docs/screenshots/bookings.png" alt="Hospitality Operations Dashboard demo showing reservation filters, room readiness, and a booking timeline" width="720">
-</a>
-
-</details>
-
-## Tech stack
-
-| Vue ecosystem · primary commercial background | React ecosystem · additional experience |
-| --- | --- |
-| Vue 2 / Vue 3 · Nuxt 2 / Nuxt 3 | React · Next.js |
-| Pinia · Vuex | Redux Toolkit · TanStack Query |
-| Vue Router · Composition API · Vuetify | React Router · Zod |
-
-**Core:** JavaScript · TypeScript · HTML5 · CSS3 · SCSS · responsive and cross-browser UI
-
-**Testing & tools:** Vitest · Playwright · Vue Test Utils · Vite · Git · Docker · CI/CD
-
-**Data & performance:** Apache ECharts · ApexCharts · Web Workers · virtualized lists · REST APIs
-
-## Engineering focus
-
-- Frontend architecture, complex state management, and reusable UI components.
-- Data-heavy interfaces, performance optimization, REST integrations, and asynchronous UI behavior.
-- Vue 2 / Nuxt 2 to Vue 3 / Nuxt 3 migrations, debugging existing applications, automated testing, and code review.
-
-## AI-assisted development
-
-I use **OpenAI Codex, Claude, and ChatGPT** daily for implementation, prototyping, debugging, refactoring, test generation, and code review and analysis. I review, test, and validate generated code before accepting it.
+**Also:** REST APIs · SCSS · Vue/Nuxt migrations · Git · Docker · CI/CD. All projects use fictional demo data.<br>**AI:** Codex · Claude · ChatGPT daily for building, debugging, and testing; I review and test the output.
